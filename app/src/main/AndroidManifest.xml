@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="e.abimuliawans.p3l_mobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/atmabiru"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutUsActivity"></activity>
+        <activity android:name=".KendaraanKonsmenActivity" />
+        <activity android:name=".RiwayatKonsumenActivity" />
+        <activity android:name=".SparepartWithCabangActivity" />
+        <activity android:name=".DasboardKonsumenActivity" />
+        <activity android:name=".StokSparepartActivity" />
+        <activity android:name=".DetailLayananActivity" />
+        <activity android:name=".DetailSparepartActivity" />
+        <activity android:name=".TransaksiDetailActivity" />
+        <activity android:name=".TransactionActivity" />
+        <activity android:name=".TambahPemasananActivity" />
+        <activity android:name=".SparepartBySupActivity" />
+        <activity android:name=".SupplierOrderActivity" />
+        <activity android:name=".CabangActivity" />
+        <activity android:name=".EditKonsumenActivity" />
+        <activity android:name=".KomsumenActivity" />
+        <activity android:name=".EditSalesActivity" />
+        <activity android:name=".SalesActivity" />
+        <activity android:name=".EditSparepartActivity" />
+        <activity android:name=".PilihKendaraanSpar" />
+        <activity android:name=".TambahSparepartActivity" />
+        <activity android:name=".EditSupplierActivity" />
+        <activity android:name=".EditVehicleActivity" />
+        <activity android:name=".PemesananActivity" />
+        <activity android:name=".SupplierActivity" />
+        <activity android:name=".SparepartActivity" />
+        <activity android:name=".VehicleActivity" />
+        <activity android:name=".DasboardActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
